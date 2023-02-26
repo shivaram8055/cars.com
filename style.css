@@ -104,15 +104,20 @@ p{
     padding: 10px;
 }
 .featured{
+    display: flex;
     padding: 40px;
     align-items: center;
     justify-content: center;
-    padding-left:140px;
-    height: 50vh;
+    flex-wrap: wrap;
+    
 }
 .featured img{
     max-width: 1000px;
-    padding: 20px;
+    height: 550px;
+    margin-bottom: 100px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 25px;
 
 }
 .featured h1{
@@ -120,7 +125,6 @@ p{
 }
 .featured p{
     font-size: 30px;
-    padding-bottom: 10px;
 }
 .featured a{
     color:#8c8a82;
@@ -129,5 +133,38 @@ p{
     border-radius: 30px;
     padding: 10px;
     font-size: 15px;
-    
+    justify-content: flex-start; 
+}
+.featuredtxt{
+    justify-content: flex-start;
+}
+.featured a:hover{
+    color: orangered;
+    border-color: orangered;
+}
+.featuredvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0;
+    padding: 50px 0;
+    position: relative;
+    min-height: 100vh;
+
+}
+.featuredvideo h1{
+    padding-top: 150px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Tourney', cursive;
+}
+.hotwheels{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.featuredvideo h1:hover{
+    font-family: 'Raleway';
 }
