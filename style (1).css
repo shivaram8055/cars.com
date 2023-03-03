@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    text-shadow: 10%;
+    font-size: 20px;
+
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    overflow: hidden;
+}
+.col-2 img{
+    margin: 50px;
+    max-width: 550px;
+    padding: 30%;
+    padding-left: 5px;
+    transition:transform 2s;
+}
+.col-2 img:hover{
+    transform: scale(1.1);
+}
+
+.col-1 h1{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 25px 0;
+}
+.col-1 p{
+    font-size: 20px;
+    line-height: 20px;
+}
+.btn {
+    display: inline-block;
+    background:orangered;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition:transform 0.3s ;
+
+}
+.btn:hover{
+    transform:translatex(10px) ;
+    background-color:black;
+}
+.header{
+    background:radial-gradient(yellow,orangered);
+}
+.navlogo ul li{
+    padding-right: 12px;
+    transition: transform 0.3s;
+    scale: 1.2;
+    
+}
+.navlogo ul li :hover{
+    transform: scale(1.5);
+    color:white;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+.featured{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.featured img{
+    max-width: 1000px;
+    height: 550px;
+    margin-bottom: 100px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 25px;
+
+}
+.featured h1{
+    font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+
+}
+.featured p{
+    font-size: 30px;
+}
+.featured a{
+    color:#8c8a82;
+    border: 2px solid;
+    border-color: #8c8a82;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    justify-content: flex-start; 
+}
+.featuredtxt p{
+    padding-left: 800px;
+}
+.featured a:hover{
+    color: orangered;
+    border-color: orangered;
+}
+.featuredvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0;
+    padding: 50px 0;
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 0;
+    padding-bottom:0;
+
+}
+.featuredvideo h1{
+    padding-top: 500px ;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    color: white;
+    font-size: 80px;
+    font-family: 'Inconsolata', monospace;
+
+}
+.hotwheels{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.featuredvideo h1:hover{
+    color:orangered;
+    
+}
+
+/*-------------footer---------------*/
+
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    border-top:2px rgb(207, 198, 198) solid;
+    padding-top: 60px;
+}
+.footer img{
+    max-width: 100px;
+    filter: grayscale(100);
+    margin-right: 30px;
+}
+
+.sub-footer p{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    font-weight: bold;
+}
+.sub-footer img:hover{
+    filter: grayscale(0);
+}
+.sub-footer a{
+    margin: 1%;
+    font-family: 'Inconsolata', monospace;
+    color: orangered;
+    font-weight:bold;
+}
+.sub-footer a:hover{
+    text-decoration: underline;
+}
+
+/*---------------swiper-----------*/
+
+.swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    padding: 0;
+    width: 1244px;
+    height:700px;
+    box-shadow: 10px 10px 50px black;
+}
+
+.image-slider{
+    background: url(/images/background\ cate-2.jpeg);
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+
+
+.image-slider h1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    padding-left: 30px;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:#fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background:#fff;
+}
