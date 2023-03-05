@@ -1,3 +1,40 @@
-.ch-imgs img{
-    display: flex;
+.{
+    margin: 1080px;
+    padding: 0;
+}
+.ch-container{
+    padding: 105;
+    margin: 100px;
+}
+.character-div{
+    display: grid;
+    grid-template-columns:600px 600px;
+    max-width: 1080px;
+    column-gap: 50px;
+    row-gap: 100px;
+    padding:50px;
+    margin: 10%;
+    align-items: baseline;
+    justify-content: center;
+}
+.character-3, .character-2, .character-1, .character-5, .character-4{
+    border: 1px solid gainsboro;
+    overflow: hidden;
+    padding: 10%;
+}
+.character-div img{
+    max-width: 800px;
+    max-height: 250px;
+    padding-right: 50px;
+}
+.character-3{
+    grid-column: span 2;
+}
+.character-div h1{
+    font-size: 50px;
+    font-family: 'Alegreya SC', serif;
+}
+.character-div p{
+    font-size: 30px;
+    font-family: 'Alegreya SC',serif;
 }
