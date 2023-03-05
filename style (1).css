@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+.header{
+    background:radial-gradient(yellow,orangered);
+}
 body{
     font-family: 'Inconsolata', monospace;
 }
@@ -63,13 +66,17 @@ p{
 }
 
 .col-1 h1{
-    font-size: 35px;
+    font-size: 45px;
     line-height: 45px;
     margin: 25px 0;
+    font-family: 'Genos', sans-serif;
+    line-height: 20px;
 }
 .col-1 p{
-    font-size: 20px;
+    font-size: 30px;
     line-height: 20px;
+    font-family: 'Genos', sans-serif;
+
 }
 .btn {
     display: inline-block;
@@ -85,9 +92,7 @@ p{
     transform:translatex(10px) ;
     background-color:black;
 }
-.header{
-    background:radial-gradient(yellow,orangered);
-}
+
 .navlogo ul li{
     padding-right: 12px;
     transition: transform 0.3s;
@@ -95,9 +100,12 @@ p{
     
 }
 .navlogo ul li :hover{
-    transform: scale(1.5);
+    transform: scale(1.5);  
     color:white;
 }
+
+/*----------------------------------------------------------------------------------------------*/
+
 .logo{
     width: 150px;
     height: auto;
@@ -122,11 +130,12 @@ p{
 }
 .featured h1{
     font-size: 60px;
-    font-family: 'Inconsolata', monospace;
-
+    font-family: 'Genos', sans-serif;
 }
 .featured p{
     font-size: 30px;
+    font-family: 'Genos', sans-serif;
+
 }
 .featured a{
     color:#8c8a82;
@@ -134,7 +143,7 @@ p{
     border-color: #8c8a82;
     border-radius: 30px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     justify-content: flex-start; 
 }
 .featuredtxt p{
@@ -196,7 +205,7 @@ p{
 }
 
 .sub-footer p{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Genos', sans-serif;
     color: black;
     font-weight: bold;
 }
@@ -205,7 +214,7 @@ p{
 }
 .sub-footer a{
     margin: 1%;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Genos', sans-serif;
     color: orangered;
     font-weight:bold;
 }
@@ -237,7 +246,7 @@ p{
     padding-top: 40px;
     padding-bottom: 50px;
     font-size: 50px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Genos', sans-serif;
     padding-left: 30px;
 }
 .swiper .swiper-button-prev,.swiper .swiper-button-next{
