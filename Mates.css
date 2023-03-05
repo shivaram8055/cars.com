@@ -10,7 +10,7 @@ h1{
     display: flex;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 2px rgb(207, 198, 198) solid;;
 }
 nav{
     flex: 1;
@@ -36,7 +36,7 @@ nav ul li{
 }
 .navlogo ul li a{
     color: black;
-    font-size: 22px;
+    font-size: 20px;
 }
 .navlogo ul li :hover{
     transform: scale(1.5);  
@@ -139,6 +139,5 @@ nav ul li{
 .sub-footer a:hover{
     text-decoration: underline;
 }
-
 
 /*--------------------------------------------------------------------------------------------*/
