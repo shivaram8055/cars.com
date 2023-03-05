@@ -236,7 +236,7 @@ p{
 }
 
 .image-slider{
-    background: url(/images/background\ cate-2.jpeg);
+    background: url(./images/background\ cate-2.jpeg);
     padding-bottom: 90px;
     overflow: hidden;
 }
