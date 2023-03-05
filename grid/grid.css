@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-auto-rows: minmax(100px,grid-auto-rows);
+    row-gap: 10px;
+    align-items: stretch;
+    justify-content: stretch;
+}
+.grid-container img{
+   
+    width: 50%;
+    border: 2px solid black;
+}
+.grid-item-1{
+    align-self:start;
+    justify-self: center;
+}
