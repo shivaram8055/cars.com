@@ -1,0 +1,90 @@
+*{
+    font-family: 'Genos', sans-serif;
+
+}
+/*-----------------------------------navbar--------------------------------------*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px rgb(207, 198, 198) solid;;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    color: red;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    color: red;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: red;
+
+}
+.navlogo ul li{
+    padding-right: 12px;
+    transition: transform 0.3s;
+    scale: 1.2;
+}
+.navlogo ul li a{
+    color: black;
+    font-size: 20px;
+}
+.navlogo ul li :hover{
+    transform: scale(1.5);  
+    color: orangered;
+}
+ .logo img{
+    width: 150px;
+    height: 50px;
+ }
+ .logo img:hover{
+    filter: grayscale(0);
+ }
+
+/*--------------------------------------------------------------*/
+
+header{
+    font-family: 'Genos', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.mid{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 35%;
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 27px;
+    border: 2px solid gainsboro;
+
+}
+.mid a{
+    padding: 10px;
+    color: black;
+}
+.t:hover{
+    color: #1DA1F2;
+}
+.f:hover{
+    color:#4267B2;
+}
+.y:hover{
+ color:#FF0000;   
+}
+.i:hover{
+ color:#0077b5 ;   
+}
