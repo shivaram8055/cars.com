@@ -1,64 +1,91 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'genos',sans-serif;
-}
-body{
-    /*background-image: url(./images/background-user-2.jpeg);*/
-    background-color: #fff;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    font-family: 'Genos', sans-serif;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
+body{
+    background: url(./images/user.webp);
+    background-size: 120%;
+    background-repeat: no-repeat;
+
 }
-.sub-container{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid black;
-}
-span{
-    font-size: 20px;
-    color: rgb(44, 128, 202);
-}
-.header{
+.box{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 35px;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 60px;
+    padding: 70px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 3px gainsboro;
+
+}
+header{
+    font-size: 40px;
+    color:black;
 }
 .ip{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-}
-input{
-    outline: none;
-    border: 1px solid black;
-    height: 30px;
-    width:250px;
-    border-radius: 30px;
-    padding-left: 20px;
-    font-size: 20px;
-    justify-content: center;
+    padding: 10px;
 }
 ::-webkit-input-placeholder{
-    color: blueviolet;
+    color: black;
+    padding-left: 20px;
 }
-.submit{
-    height: 200px;
-    width: 300px;
-    border: none;
+.ip input{
+    width: 250px;
+    height:4vh;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    background: none;
+    outline: none;
+    border: 1px solid gainsboro; 
+    box-shadow: 2px 2px 6px 2px gainsboro;
+    color: orangered;
+}
+.btn:hover{
+    background-color: orangered;
+    color: white;
+}
+input:focus::-webkit-input-placeholder{
+    color: orangered;
+}
+.ip1{
+    padding-left: 20px;
+}
+
+.bottom{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    padding-right: 100px;
+}
+.left input{
+    max-height: 5vh;
+    accent-color: orangered;
+}
+.left label{
+    padding: 10px;
+}
+.left label:hover{
+    color: orangered;
+}
+.right{
+    display: flex;
+    font-size: 18px;
+    padding-top: 30px;
+    color: red;
+}
+.right a{
+    color: black;
+}
+.right a:hover{
+    color: orangered;
 }
