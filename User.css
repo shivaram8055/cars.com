@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 140px;
     margin-left: 60px;
     padding: 70px;
     border-radius: 20px;
@@ -89,3 +89,91 @@ input:focus::-webkit-input-placeholder{
 .right a:hover{
     color: orangered;
 }
+
+
+
+
+/*---------------------------------------------footer---------------------------------*/
+
+.sub-footer{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:60.5%;
+    margin-bottom: 60px;
+    border-top:2px rgb(207, 198, 198) solid;
+    padding-top: 60px;
+}
+.footer img{
+    max-width: 100px;
+    filter: grayscale(100);
+    margin-right: 30px;
+}
+
+.sub-footer p{
+    font-family: 'Genos', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.sub-footer img:hover{
+    filter: grayscale(0);
+}
+.sub-footer a{
+    margin: 1%;
+    font-family: 'Genos', sans-serif;
+    color: orangered;
+    font-weight:bold;
+    text-decoration: none;
+}
+.sub-footer a:hover{
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*-----------------------------------navbar--------------------------------------*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px rgb(207, 198, 198) solid;;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    color: red;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    color: red;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: red;
+
+}
+.navlogo ul li{
+    padding-right: 12px;
+    transition: transform 0.3s;
+    scale: 1.2;
+}
+.navlogo ul li a{
+    color: white;
+    font-size: 20px;
+}
+.navlogo ul li :hover{
+    transform: scale(1.5);  
+    color: orangered;
+}
+ .logo img{
+    width: 150px;
+    height: 50px;
+ }
+ .logo img:hover{
+    filter: grayscale(0);
+ }
+
